@@ -1,0 +1,164 @@
+
+body
+{
+	background-color: #c7e7f4;
+	color: #202020;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 18px;
+	margin: 0;
+	padding: 0;
+}
+footer
+{
+	background-color: #b13558;
+	color: white;
+	text-align: center;
+}
+header
+{
+	background-color: #677e85;
+	height: 1.8em;
+	margin: 0;
+	padding: .5em;
+	text-align: center;
+
+}
+header #logo img
+{
+	float: left;
+	width: 50px;
+	padding: 0em .5em 0em 0em;
+}
+h2
+{
+	text-align: center;
+}
+ul
+{
+	display: inline-block;
+}
+nav
+{
+	background-color: #b13558;
+	display: inline-block;
+	margin: 0;
+	text-align: center;
+	padding: 0;
+	width: 100%;
+}
+nav ul 
+{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+nav ul li
+{
+	display: inline;
+	margin: 0;
+	padding: 0;
+	font-size: 1em;
+}
+nav ul li a
+{	
+	background-color: #f7f082;
+	border-radius: .5em 0;
+	color: #202020;
+	margin: auto;
+	padding: 0em 1em;
+}
+p
+{
+	margin: 0.5em;
+}
+#Contacto #datos
+{
+	background-color: #c7e7f4;
+}
+
+#Contacto
+{
+	background-color: #e3adb9;
+	display: inline-block;
+	margin: 0;
+	padding-bottom: 1em;
+	padding-top: 0;
+	text-align: center;
+	width: 100%;
+
+}
+#lema
+{
+	color: white;
+	display: inline-block;
+	float: right;
+	font-size: .9em;
+	margin: 0;
+	padding: .2em;
+	display: inline;
+}
+#Mapa
+{
+	background-color: white;
+	display: inline-block;
+	margin: 0;
+	width: 100%;
+}
+#nombre
+{
+	color: white;
+	display: inline-block;
+	float: left;
+	font-size: 1.2em;
+	margin: 0;
+	padding: 0;
+}
+#Quienes_somos
+{
+	background-color: #d1e9c7;
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+	text-align: justify;
+	width: 100%;
+}
+#Servicios_que_ofrecemos
+{
+	background-color: #eee7b6;
+	display: inline-block;
+	margin: 0;
+	padding-bottom: 1em;
+	text-align: center;
+	width: 100%;
+}
+#Servicios_que_ofrecemos #cuadro1, #cuadro3
+{
+	background-color: #c7e7f4;
+	margin: 0;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	text-align: left;
+	width: 85%;
+}
+#Servicios_que_ofrecemos #cuadro2, #cuadro4
+{
+	background-color: #b13558;
+	color: white;
+	margin: 0;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	text-align: left;
+	 
+	width: 85%;
+}
+/*{
+	background-color: #c7e7f4;
+}
+#Servicios_que_ofrecemos #cuadro4
+{
+	background-color: #b13558;
+	color: white;
+}*/
+
+
+
