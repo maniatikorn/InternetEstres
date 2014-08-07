@@ -1,5 +1,5 @@
 @import '../css/normalize.css'
-@import '../iconos/flaticon.css'
+@import 'fonts.styl'
 
 aClaro=#40c0cb
 aFuerte=#00a8c6
@@ -41,7 +41,9 @@ header h2
 	margin 0 1em
 
 h3
+	color black
 	font-weight 400
+	text-align center
 
 nav
 	background aClaro
@@ -89,6 +91,9 @@ section article ul li
 	padding 0
 	text-decoration none
 	font-size 1em	
+
+section article .quienes
+	text-align center
 	
 .container1
 	margin 0
@@ -105,7 +110,38 @@ section article .icon
 .lema
 	display inline-block
 
-.quienes
+.quienes, .contacto
 	width 93%
 	margin auto
 	line-height 1.5em
+	padding 0 0 1em 0
+
+.contacto
+	text-align center
+
+.linkIcon 
+	background-color vFuerte
+	border-radius 600px
+	color hueso
+	cursor default
+	display inline-block
+	font-size 7em
+	margin .1em 0 0 0
+	padding .2em
+	text-align center
+	text-decoration none
+
+.servicios
+	text-align center
+	width 100%
+	background-size 100%
+
+.filtro
+	background vClaro
+	width 100%
+	padding .1em 0 0 0
+
+.serviciosIconos
+	 display block 
+	 text-align center
+	 padding 0 0 1em 0
