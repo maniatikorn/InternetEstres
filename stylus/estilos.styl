@@ -80,6 +80,9 @@ footer
 	padding 0
 	text-align center
 	color hueso
+	padding	1em 0
+	& g-plusone
+		display inline-block
 
 section article ul 
 	padding 0
@@ -109,6 +112,8 @@ section article .icon
 
 .lema
 	display inline-block
+	possition relative
+	top -10px
 
 .quienes, .contacto
 	width 93%
@@ -142,6 +147,44 @@ section article .icon
 	padding .1em 0 0 0
 
 .serviciosIconos
-	 display block 
+	 display inline-block 
 	 text-align center
 	 padding 0 0 1em 0
+	 width 250px
+	 border 5px solid vFuerte
+	 border-radius 5px
+	 margin 5px 0
+
+@media screen and (min-width: 1000px)
+
+	body
+		background-color white
+		font-size 2em
+		margin auto
+
+	header figure img
+		display inline-block
+		float left
+		margin 0
+		padding 2em 3em
+		width 200px
+
+	header h1
+		font-family 'Roboto', sans-serif
+		font-size 3.5em
+		font-weight 500
+		margin 1em 1em
+		
+	header h2
+		font-size 3em
+		display inline-block
+		position relative
+		right -200px
+
+	.nombre
+		margin 1em 
+		padding 0
+
+	.lema
+		margin 0
+		padding 0em 1em
